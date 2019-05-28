@@ -151,8 +151,6 @@
     <Content Include=".eslintrc.js" />
     <Content Include=".gitignore" />
     <Content Include="babel.config.js" />
-    <Content Include="dist\css\app.a50b1212.css" />
-    <Content Include="dist\js\app.b73f3c46.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="postcss.config.js" />
@@ -166,7 +164,6 @@
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="dist\js\app.b73f3c46.js.map" />
     <Content Include="src\assets\logo.png" />
     <Content Include="src\main.js" />
     <Content Include="src\router.js" />
@@ -191,7 +188,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
+    <Folder Include="dist\css\" />
     <Folder Include="dist\img\" />
+    <Folder Include="dist\js\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
